@@ -35,12 +35,12 @@
 
     <main>
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
             <button type="button" class="hero-button">Заказать услугу</button>
         </section>
         
         <section class="list container">
-            <ul>
+            <ul class="list-description">
                 <li class="list-style">
                     <h3 class="list-title">Внимание к деталям</h3>
                     <p class="list-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -63,9 +63,21 @@
         <section class="work container">
             <h2 class="work-title">Чем мы занимаемся</h2>
             <ul class="work-description">
-                <li class="work-list list-style"><a href=""><img src="./images/keyboardtablet.jpg" alt="клавиатура планшет" width="370"></a></li>
-                <li class="work-list list-style"><a href=""><img src="./images/notebook.jpg" alt="Ноутбук" width="370"></a></li>
-                <li class="work-list list-style"><a href=""><img src="./images/tablet.jpg" alt="Планшет" width="370"></a></li>
+                <li class="work-list list-style">
+                    <a class="work-link" href="">
+                        <img class="work-img" src="./images/keyboardtablet.jpg" alt="клавиатура планшет" width="370">
+                    </a>
+                </li>
+                <li class="work-list list-style">
+                    <a class="work-link" href="">
+                        <img class="work-img" src="./images/notebook.jpg" alt="Ноутбук" width="370">
+                    </a>
+                </li>
+                    <li class="work-list list-style">
+                        <a class="work-link" href="">
+                            <img class="work-img" src="./images/tablet.jpg" alt="Планшет" width="370">
+                        </a>
+                </li>
             </ul>
         </section>
 
@@ -73,22 +85,22 @@
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-description">
                 <li class="team-list list-style">
-                    <a href=""><img class="team-photo" src="./images/man1.jpg" alt="Игорь Демьяненко" width="270"></a>
+                    <a href="#"><img class="team-photo" src="./images/man1.jpg" alt="Игорь Демьяненко" width="270"></a>
                     <h3 class="team-name">Игорь Демьяненко</h3>
                     <p class="team-position">Product Designer</p>
                 </li>
                 <li class="team-list list-style">
-                    <a href=""><img class="team-photo" src="./images/woman1.jpg" alt="Ольга Репина" width="270"></a>
+                    <a href="#"><img class="team-photo" src="./images/woman1.jpg" alt="Ольга Репина" width="270"></a>
                     <h3 class="team-name">Ольга Репина</h3>
                     <p class="team-position">Frontend Developer</p>
                 </li>
                 <li class="team-list list-style">
-                    <a href=""><img class="team-photo" src="./images/man2.jpg" alt="Николай Тарасов" width="270"></a>
+                    <a href="#"><img class="team-photo" src="./images/man2.jpg" alt="Николай Тарасов" width="270"></a>
                     <h3 class="team-name">Николай Тарасов</h3>
                     <p class="team-position">Marketing</p>
                 </li>
                 <li class="team-list list-style">
-                    <a href=""><img class="team-photo" src="./images/man3.jpg" alt="Михаил Ермаков" width="270"></a>
+                    <a href="#"><img class="team-photo" src="./images/man3.jpg" alt="Михаил Ермаков" width="270"></a>
                     <h3 class="team-name">Михаил Ермаков</h3>
                     <p class="team-position">UI Designer</p>
                 </li>
@@ -97,16 +109,18 @@
     </main>
  
     <footer>
-        <div class="footer container">
-        <a href="#" class="footer-logo">
+        <div class="page-footer container">
+            <div class="content-footer">
+            <a href="#" class="footer-logo">
             <span class="footer-logo-web">Web</span><span class="footer-logo-studio">Studio</span>
-        </a>
-        <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-        <ul class="footer-contact">
-            <li class="list-style"><a href="mailto:info@example.com" class="footer-mailto">info@example.com</a></li>
-            <li class="list-style"><a href="tel:+380991111111" class="footer-call">+38 099 111 11 11</a></li>
-        </ul>
-        </div>
+            </a>
+            <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+            <ul class="footer-contact">
+                <li><a href="mailto:info@example.com" class="footer-mailto">info@example.com</a></li>
+                <li><a href="tel:+380991111111" class="footer-call">+38 099 111 11 11</a></li>
+            </ul>
+            </div>
+        </div>    
     </footer>
 </body>
 </html>
