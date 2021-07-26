@@ -44,11 +44,11 @@ ul {
 
 header {
   border-bottom: 1px solid #ECECEC;
+   padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .navigation-header {
-  padding-top: 32px;
-  padding-bottom: 32px;
   display: flex;
   justify-content: space-between;
   align-items: center; 
@@ -152,7 +152,9 @@ button {
 }
 
 .hero{
-  background-image: url(../images/Bg.jpg)
+  background-image: url(../images/Bg.jpg);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-wrapper{
   display: flex;
@@ -160,10 +162,7 @@ button {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
-
 
 .hero-title {
   font-weight: 900;
@@ -204,7 +203,6 @@ button {
 .list-description .list-style {
 margin-right: 30px;
 width: 270px;
-
 }
 
 .list-description .list-style:last-child {
@@ -229,7 +227,6 @@ width: 270px;
 
 /* what we do */
 .work{
-  padding-top: 0;
   padding-bottom: 94px;
 }
 
@@ -251,13 +248,8 @@ width: 270px;
 .team{
   background: #F5F4FA;
   width: 100%;
-}
-
-.team-wrapper {
-  width: 1200px;  
-  margin: 0 auto;
   padding-top: 94px;
-
+  padding-bottom: 94px;
 }
 
 .team-list {
@@ -282,9 +274,9 @@ width: 270px;
 .team-block{
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
-  padding-bottom: 94px;
+  margin-top: 50px;
 }
+
 .team-description {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -310,10 +302,8 @@ width: 270px;
 
 /* body portfolio.html */
 .gallary {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-  /* background: #E5E5E5 - так всетаки какой?*/
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* invisible title */
@@ -328,8 +318,6 @@ width: 270px;
 .filter-group {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
 }
 
 .filter-group > .filter-list {
@@ -380,10 +368,10 @@ img {
 }
 
 .gallary-list {
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .gallary-list .list-style{
@@ -430,10 +418,7 @@ img {
 footer {
   background: var(--background-color);
   width: 100%;
-}
-
-.content-footer {
-  padding: 60px 15px;
+  padding: 60px 0;
 }
 
  .footer-logo {

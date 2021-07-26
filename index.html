@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="./css/modern-normalize-main/modern-normalize.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>WebStudio</title>
 </head>
@@ -19,7 +20,7 @@
         <div class="navigation-header container">
             <nav class="navigation">
                 <a href="" class="navigation-logo">
-                    <span class="navigation-logo-web">Web</span><span class="navigation-logo-studio">Studio</span>
+                    <span class="navigation-logo-web" id="logo">Web</span><span class="navigation-logo-studio">Studio</span>
                 </a>
                 <ul class="navigation-link">
                     <li class="list-style"><a class="link current" href="index.html">Студия</a></li>
@@ -42,8 +43,9 @@
             </div>
         </section>
         
-        <section class="list container">
+        <section class="list ">
             <div class="list-feature">
+                <div class="container">
                 <ul class="list-description">
                     <li class="list-style">
                         <h3 class="list-title">Внимание к деталям</h3>
@@ -61,35 +63,38 @@
                         <h3 class="list-title">Современные технологии</h3>
                         <p class="list-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
+                    </div>
                 </ul>
             </div>
         </section>
 
-        <section class="work container">
-            <h2 class="work-title">Чем мы занимаемся</h2>
-            <ul class="work-description">
-                <li class="work-list list-style">
-                    <a class="work-link" href="">
-                        <img class="work-img" src="./images/keyboardtablet.jpg" alt="клавиатура планшет" width="370">
-                    </a>
-                </li>
-                <li class="work-list list-style">
-                    <a class="work-link" href="">
-                        <img class="work-img" src="./images/notebook.jpg" alt="Ноутбук" width="370">
-                    </a>
-                </li>
-                <li class="work-list list-style">
-                    <a class="work-link" href="">
-                        <img class="work-img" src="./images/tablet.jpg" alt="Планшет" width="370">
-                    </a>
-                </li>
-            </ul>
+        <section class="work">
+            <div class="container">
+                <h2 class="work-title">Чем мы занимаемся</h2>
+                <ul class="work-description">
+                    <li class="work-list list-style">
+                        <a class="work-link" href="">
+                            <img class="work-img" src="./images/keyboardtablet.jpg" alt="клавиатура планшет" width="370">
+                        </a>
+                    </li>
+                    <li class="work-list list-style">
+                        <a class="work-link" href="">
+                            <img class="work-img" src="./images/notebook.jpg" alt="Ноутбук" width="370">
+                        </a>
+                    </li>
+                    <li class="work-list list-style">
+                        <a class="work-link" href="">
+                            <img class="work-img" src="./images/tablet.jpg" alt="Планшет" width="370">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <section class="team">
-            <div class="team-wrapper">
+            <div class="team-wrapper container">
                 <h2 class="team-title">Наша команда</h2>
-                <ul class="team-block container">
+                <ul class="team-block">
                     <li class="team-list list-style">
                         <a href="#"><img class="team-photo" src="./images/man1.jpg" alt="Игорь Демьяненко" width="270"></a>
                         <div class="team-description">
@@ -124,9 +129,9 @@
     </main>
  
     <footer>
-        <div class="page-footer container">
-            <div class="content-footer">
-                <a href="#" class="footer-logo">
+        <div class="page-footer">
+            <div class="content-footer container">
+                <a href="#logo" class="footer-logo">
                     <span class="footer-logo-web">Web</span><span class="footer-logo-studio">Studio</span>
                 </a>
                 <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
